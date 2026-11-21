@@ -1,6 +1,6 @@
 import { uiText as __uiText, formatUi } from '../lib/i18n'
 import { Sun, Moon, Wifi, WifiOff, Settings, Maximize, Minimize, HelpCircle, Play, Square, RotateCcw, Zap, Power, Home, Target, Crosshair, ArrowLeft, ArrowUp, ArrowRight, ArrowDown, Lightbulb, LayoutDashboard, type LucideIcon } from 'lucide-react'
-import fluidncLogo from '../assets/fluidnc-logo.svg'
+import freilabLogo from '../assets/freilab-logo.png'
 import { useMachineStore, stateColor, stateBg } from '../store'
 import { useGCodeStore } from '../store/gcode'
 import { useGCodeSenderStore } from '../store/gcodeSender'
@@ -68,7 +68,7 @@ export function Header({ onSettingsClick, onAboutClick, isTablet, sticky }: Prop
   return (
     <header dir="ltr" className={`h-12 bg-surface border-b border-border flex items-center px-3 xl:px-4 gap-2 xl:gap-4 shrink-0 overflow-x-auto ${sticky ? 'sticky top-0 z-50' : ''}`}>
       <div className="flex items-center gap-2 shrink-0">
-        <img src={fluidncLogo} alt="FluidNC" className="h-8 w-auto shrink-0" style={theme !== 'light' ? { filter: 'invert(1) hue-rotate(180deg)' } : undefined} />
+        <img src={freilabLogo} alt="FREILab" className={`h-8 w-auto shrink-0 ${theme !== 'light' ? 'bg-white rounded px-1 py-0.5' : ''}`} />
       </div>
 
       <div className="h-5 w-px bg-border" />
