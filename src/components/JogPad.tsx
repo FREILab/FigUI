@@ -773,7 +773,7 @@ function useKeyboardJog(
   continuous: boolean, canJog: boolean, xyFeed: number, zFeed: number,
   panelRef: React.RefObject<HTMLElement>,
 ) {
-  const [keyboardJog, setKeyboardJog] = useState(false)
+  const [keyboardJog, setKeyboardJog] = useState(continuous)
   const [activeKeys, setActiveKeys] = useState<Set<string>>(new Set())
   const pressedKeysRef = useRef<Set<string>>(new Set())
   const fireTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
@@ -915,7 +915,8 @@ function useKeyboardJog(
   return { keyboardJog, setKeyboardJog, activeKeys }
 }
 
-export function JogPad() {
+/** Jog pads open in continuous mode with keyboard jog on; pass false for step mode. */
+export function JogPad({ initialContinuous = true }: { initialContinuous?: boolean } = {}) {
   const status = useMachineStore(s => s.status)
   const laserMode = useMachineStore(s => s.controllerSettings.laserMode === true)
   const controllerResetPending = useMachineStore(s => s.controllerResetPending)
@@ -933,7 +934,7 @@ export function JogPad() {
   const [xyFeed, setXyFeed] = useState(() => loadPersistedJogFeed('jog.xyFeed', 1000))
   const [zFeed, setZFeed]   = useState(() => loadPersistedJogFeed('jog.zFeed', 200))
   const [abcFeed, setAbcFeed] = useState(() => loadPersistedJogFeed('jog.abcFeed', 500))
-  const [continuous, setContinuous] = useState(false)
+  const [continuous, setContinuous] = useState(initialContinuous)
   const [compact, setCompact] = useState(() => localStorage.getItem('jog.desktopStyle') === 'compact')
   const prevUnitsRef = useRef(units)
 
@@ -1424,9 +1425,11 @@ function CompactRotaryJogControls({ axis, color, feed, step, continuous, disable
 export function TabletJogPad({
   onSwitchStyle,
   layout = 'default',
+  initialContinuous = true,
 }: {
   onSwitchStyle?: () => void
   layout?: 'default' | 'topBand'
+  initialContinuous?: boolean
 } = {}) {
   const status = useMachineStore(s => s.status)
   const connected = useMachineStore(s => s.connected)
@@ -1441,7 +1444,7 @@ export function TabletJogPad({
   const [xyFeed, setXyFeed] = useState(() => loadPersistedJogFeed('jog.xyFeed', 1000))
   const [zFeed, setZFeed]   = useState(() => loadPersistedJogFeed('jog.zFeed', 200))
   const [abcFeed, setAbcFeed] = useState(() => loadPersistedJogFeed('jog.abcFeed', 500))
-  const [continuous, setContinuous] = useState(false)
+  const [continuous, setContinuous] = useState(initialContinuous)
   const [stepIdx, setStepIdx] = useState(() => tabletStepIdx)
   const fineJog = useMachineStore(s => s.fineJog)
   const setFineJog = useMachineStore(s => s.setFineJog)

@@ -117,7 +117,7 @@ for (const axes of [3, 4, 5, 6]) {
   for (const layout of ['default', 'topBand']) {
     store.setState({ axes, units: 'in', connected: true, status: { ...store.getState().status, state: 'Idle' } })
     Object.assign(renderState, store.getState())
-    const html = renderToStaticMarkup(createElement(TabletJogPad, { layout }))
+    const html = renderToStaticMarkup(createElement(TabletJogPad, { layout, initialContinuous: false }))
     // The step is kept as a list position, so the default second step is 0.01 in, not 1 in.
     assert.equal(/shadow-inner">([^<]+)</.exec(html)?.[1], '0.01')
     assert.doesNotMatch(html, /disabled="" aria-label="Jog/)
