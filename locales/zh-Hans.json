@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "输入摄像头的 URL。它只会保存在此浏览器中。",
   "components.GCodeViewer.camera_help.1": "使用 MJPEG 流的 HTTP(S) URL，或使用以 .jpg 或 .jpeg 结尾的快照 HTTP(S) URL。",
   "components.GCodeViewer.camera_invalid_url.1": "请输入有效的 http(s) 流 URL。",
-  "components.GCodeViewer.camera_error.1": "无法加载相机流。请检查 URL 以及浏览器的混合内容警告。"
+  "components.GCodeViewer.camera_error.1": "无法加载相机流。请检查 URL 以及浏览器的混合内容警告。",
+  "components.GCodeViewer.park.1": "停靠",
+  "components.GCodeViewer.park_title.1": "暂停、停止主轴并将 Z 抬升到停靠高度",
+  "components.JobControl.park.1": "停靠",
+  "components.JobControl.park_title.1": "暂停、停止主轴并将 Z 抬升到停靠高度"
 }

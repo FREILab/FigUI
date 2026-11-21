@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "अपने कैमरे का URL दर्ज करें। यह केवल इस ब्राउज़र में सहेजा जाता है।",
   "components.GCodeViewer.camera_help.1": "MJPEG स्ट्रीम या .jpg या .jpeg पर समाप्त होने वाले स्नैपशॉट के लिए HTTP(S) URL इस्तेमाल करें।",
   "components.GCodeViewer.camera_invalid_url.1": "मान्य http(s) स्ट्रीम URL दर्ज करें।",
-  "components.GCodeViewer.camera_error.1": "कैमरा स्ट्रीम लोड नहीं हो सकी। URL और ब्राउज़र की मिश्रित-सामग्री चेतावनियाँ जाँचें।"
+  "components.GCodeViewer.camera_error.1": "कैमरा स्ट्रीम लोड नहीं हो सकी। URL और ब्राउज़र की मिश्रित-सामग्री चेतावनियाँ जाँचें।",
+  "components.GCodeViewer.park.1": "पार्क",
+  "components.GCodeViewer.park_title.1": "रोकें, स्पिंडल बंद करें और Z को पार्किंग ऊँचाई तक उठाएँ",
+  "components.JobControl.park.1": "पार्क",
+  "components.JobControl.park_title.1": "रोकें, स्पिंडल बंद करें और Z को पार्किंग ऊँचाई तक उठाएँ"
 }

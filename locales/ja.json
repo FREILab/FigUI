@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "カメラの URL を入力してください。このブラウザーにのみ保存されます。",
   "components.GCodeViewer.camera_help.1": "MJPEG ストリーム、または .jpg か .jpeg で終わるスナップショットの HTTP(S) URL を使用してください。",
   "components.GCodeViewer.camera_invalid_url.1": "有効な http(s) ストリーム URL を入力してください。",
-  "components.GCodeViewer.camera_error.1": "カメラ映像を読み込めませんでした。URL とブラウザの混在コンテンツ警告を確認してください。"
+  "components.GCodeViewer.camera_error.1": "カメラ映像を読み込めませんでした。URL とブラウザの混在コンテンツ警告を確認してください。",
+  "components.GCodeViewer.park.1": "パーク",
+  "components.GCodeViewer.park_title.1": "一時停止し、スピンドルを停止して Z をパーキング高さまで上げる",
+  "components.JobControl.park.1": "パーク",
+  "components.JobControl.park_title.1": "一時停止し、スピンドルを停止して Z をパーキング高さまで上げる"
 }

@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Saisissez l’URL de votre caméra. Elle est enregistrée uniquement dans ce navigateur.",
   "components.GCodeViewer.camera_help.1": "Utilisez une URL HTTP(S) pour un flux MJPEG ou une image fixe dont l’URL se termine par .jpg ou .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Saisissez une URL de flux http(s) valide.",
-  "components.GCodeViewer.camera_error.1": "Le flux vidéo n'a pas pu être chargé. Vérifiez l'URL et assurez-vous que la caméra est en ligne."
+  "components.GCodeViewer.camera_error.1": "Le flux vidéo n'a pas pu être chargé. Vérifiez l'URL et assurez-vous que la caméra est en ligne.",
+  "components.GCodeViewer.park.1": "Parquer",
+  "components.GCodeViewer.park_title.1": "Mettre en pause, arrêter la broche et lever Z à la hauteur de parcage",
+  "components.JobControl.park.1": "Parquer",
+  "components.JobControl.park_title.1": "Mettre en pause, arrêter la broche et lever Z à la hauteur de parcage"
 }

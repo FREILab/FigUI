@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Geben Sie die URL Ihrer Kamera ein. Sie wird nur in diesem Browser gespeichert.",
   "components.GCodeViewer.camera_help.1": "Verwenden Sie eine HTTP(S)-URL für einen MJPEG-Stream oder ein Einzelbild mit der Endung .jpg oder .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Geben Sie eine gültige http(s)-Stream-URL ein.",
-  "components.GCodeViewer.camera_error.1": "Der Kamerastream konnte nicht geladen werden. Prüfen Sie die URL und Hinweise zu gemischten Inhalten im Browser."
+  "components.GCodeViewer.camera_error.1": "Der Kamerastream konnte nicht geladen werden. Prüfen Sie die URL und Hinweise zu gemischten Inhalten im Browser.",
+  "components.GCodeViewer.park.1": "Parken",
+  "components.GCodeViewer.park_title.1": "Pausieren, Spindel stoppen und Z auf Parkhöhe fahren",
+  "components.JobControl.park.1": "Parken",
+  "components.JobControl.park_title.1": "Pausieren, Spindel stoppen und Z auf Parkhöhe fahren"
 }

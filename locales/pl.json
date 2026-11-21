@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Wpisz adres URL kamery. Zostanie zapisany tylko w tej przeglądarce.",
   "components.GCodeViewer.camera_help.1": "Użyj adresu HTTP(S) strumienia MJPEG lub zdjęcia z kamery z adresem kończącym się na .jpg lub .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Wpisz prawidłowy adres URL transmisji http(s).",
-  "components.GCodeViewer.camera_error.1": "Nie można było wczytać transmisji z kamery. Sprawdź adres URL i ostrzeżenia przeglądarki o mieszanej zawartości."
+  "components.GCodeViewer.camera_error.1": "Nie można było wczytać transmisji z kamery. Sprawdź adres URL i ostrzeżenia przeglądarki o mieszanej zawartości.",
+  "components.GCodeViewer.park.1": "Parkuj",
+  "components.GCodeViewer.park_title.1": "Wstrzymaj, zatrzymaj wrzeciono i podnieś Z na wysokość parkowania",
+  "components.JobControl.park.1": "Parkuj",
+  "components.JobControl.park_title.1": "Wstrzymaj, zatrzymaj wrzeciono i podnieś Z na wysokość parkowania"
 }

@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Kameranızın URL’sini girin. Bu adres yalnızca bu tarayıcıda kaydedilir.",
   "components.GCodeViewer.camera_help.1": "MJPEG akışı veya adresi .jpg ya da .jpeg ile biten bir anlık görüntü için HTTP(S) URL’si kullanın.",
   "components.GCodeViewer.camera_invalid_url.1": "Geçerli bir http(s) akış URL’si girin.",
-  "components.GCodeViewer.camera_error.1": "Kamera akışı yüklenemedi. URL’yi ve tarayıcınızdaki karma içerik uyarılarını kontrol edin."
+  "components.GCodeViewer.camera_error.1": "Kamera akışı yüklenemedi. URL’yi ve tarayıcınızdaki karma içerik uyarılarını kontrol edin.",
+  "components.GCodeViewer.park.1": "Park et",
+  "components.GCodeViewer.park_title.1": "Duraklat, iş milini durdur ve Z'yi park yüksekliğine kaldır",
+  "components.JobControl.park.1": "Park et",
+  "components.JobControl.park_title.1": "Duraklat, iş milini durdur ve Z'yi park yüksekliğine kaldır"
 }

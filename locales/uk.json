@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Введіть URL-адресу камери. Вона зберігається лише в цьому браузері.",
   "components.GCodeViewer.camera_help.1": "Використовуйте URL з HTTP(S) для потоку MJPEG або знімка, адреса якого закінчується на .jpg чи .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Введіть дійсну URL-адресу трансляції http(s).",
-  "components.GCodeViewer.camera_error.1": "Не вдалося завантажити трансляцію з камери. Перевірте URL і попередження браузера про змішаний вміст."
+  "components.GCodeViewer.camera_error.1": "Не вдалося завантажити трансляцію з камери. Перевірте URL і попередження браузера про змішаний вміст.",
+  "components.GCodeViewer.park.1": "Паркування",
+  "components.GCodeViewer.park_title.1": "Пауза, зупинка шпинделя та підйом Z на висоту паркування",
+  "components.JobControl.park.1": "Паркування",
+  "components.JobControl.park_title.1": "Пауза, зупинка шпинделя та підйом Z на висоту паркування"
 }

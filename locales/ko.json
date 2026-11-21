@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "카메라 URL을 입력하세요. 이 브라우저에만 저장됩니다.",
   "components.GCodeViewer.camera_help.1": "MJPEG 스트림 또는 주소가 .jpg나 .jpeg로 끝나는 스냅샷의 HTTP(S) URL을 사용하세요.",
   "components.GCodeViewer.camera_invalid_url.1": "유효한 http(s) 스트림 URL을 입력하세요.",
-  "components.GCodeViewer.camera_error.1": "카메라 스트림을 불러올 수 없습니다. URL과 브라우저의 혼합 콘텐츠 경고를 확인하세요."
+  "components.GCodeViewer.camera_error.1": "카메라 스트림을 불러올 수 없습니다. URL과 브라우저의 혼합 콘텐츠 경고를 확인하세요.",
+  "components.GCodeViewer.park.1": "파킹",
+  "components.GCodeViewer.park_title.1": "일시 정지, 스핀들 정지 후 Z를 파킹 높이로 올림",
+  "components.JobControl.park.1": "파킹",
+  "components.JobControl.park_title.1": "일시 정지, 스핀들 정지 후 Z를 파킹 높이로 올림"
 }

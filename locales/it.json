@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Inserisci l’URL della videocamera. Viene salvato solo in questo browser.",
   "components.GCodeViewer.camera_help.1": "Usa un URL HTTP(S) per un flusso MJPEG o per un’istantanea con URL che termina in .jpg o .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Inserisci un URL di flusso http(s) valido.",
-  "components.GCodeViewer.camera_error.1": "Non è stato possibile caricare il flusso della fotocamera. Controlla l’URL e gli avvisi di contenuto misto del browser."
+  "components.GCodeViewer.camera_error.1": "Non è stato possibile caricare il flusso della fotocamera. Controlla l’URL e gli avvisi di contenuto misto del browser.",
+  "components.GCodeViewer.park.1": "Parcheggia",
+  "components.GCodeViewer.park_title.1": "Pausa, arresta il mandrino e solleva Z all'altezza di parcheggio",
+  "components.JobControl.park.1": "Parcheggia",
+  "components.JobControl.park_title.1": "Pausa, arresta il mandrino e solleva Z all'altezza di parcheggio"
 }

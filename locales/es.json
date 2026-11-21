@@ -1505,5 +1505,9 @@
   "components.GCodeViewer.camera_setup_detail.1": "Introduce la URL de tu cámara. Solo se guarda en este navegador.",
   "components.GCodeViewer.camera_help.1": "Usa una URL HTTP(S) para una transmisión MJPEG o una captura cuyo enlace termine en .jpg o .jpeg.",
   "components.GCodeViewer.camera_invalid_url.1": "Introduce una URL de transmisión http(s) válida.",
-  "components.GCodeViewer.camera_error.1": "No se pudo cargar la transmisión de cámara. Comprueba la URL y cualquier advertencia de contenido mixto del navegador."
+  "components.GCodeViewer.camera_error.1": "No se pudo cargar la transmisión de cámara. Comprueba la URL y cualquier advertencia de contenido mixto del navegador.",
+  "components.GCodeViewer.park.1": "Aparcar",
+  "components.GCodeViewer.park_title.1": "Pausar, detener el husillo y subir Z a la altura de aparcamiento",
+  "components.JobControl.park.1": "Aparcar",
+  "components.JobControl.park_title.1": "Pausar, detener el husillo y subir Z a la altura de aparcamiento"
 }
