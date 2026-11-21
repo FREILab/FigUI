@@ -20,12 +20,17 @@ const { renderToStaticMarkup } = await import('react-dom/server.browser')
 
 // Zustand renders the initial state on the server; keep it in step with the store.
 const renderState = store.getInitialState()
-function render(component: () => unknown, state: Record<string, unknown>) {
+function render(component: (props: { initialContinuous?: boolean }) => unknown, state: Record<string, unknown>, props = { initialContinuous: false }) {
   store.setState({ ...state, status: { ...store.getState().status, state: 'Idle' } })
   Object.assign(renderState, store.getState())
-  return renderToStaticMarkup(createElement(component as never))
+  return renderToStaticMarkup(createElement(component as never, props as never))
 }
 const stepButtons = (html: string) => [...html.matchAll(/>([\d.]+)<\/button>/g)].map(m => m[1])
+
+// Both pads open in continuous mode: the step buttons are not the active choice.
+assert.match(render(TabletJogPad, { units: 'mm', fineJog: false }, {}), /shadow-inner" aria-label="Continuous jog"/)
+assert.ok(render(JogPad, { units: 'mm', fineJog: false }, {}).includes('Keyboard jog ON'), 'keyboard jog is on by default')
+assert.ok(!render(JogPad, { units: 'mm', fineJog: false }).includes('Keyboard jog ON'), 'step mode has no keyboard jog')
 
 // Compact pad: Fine swaps the 0.1 mm step for 0.01 mm and shows its state.
 let html = render(TabletJogPad, { units: 'mm', fineJog: false })
